@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="订单信息"
+        android:textSize="35dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已选择"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="店家："
+    android:textSize="15dp"
+    />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/spProvince"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="食品："
+        android:textSize="15dp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/spCity"/>
+
+    <EditText
+        android:id="@+id/id_user_id_et"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="userId" />
+
+    <EditText
+        android:id="@+id/id_user_name_et"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="userName" />
+
+    <EditText
+        android:id="@+id/id_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的收货地址+手机号" />
+
+    <Button
+        android:id="@+id/id_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定下单" />
+
+    <Button
+        android:id="@+id/id_batch_btn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="批量增加" />
+
+
+</LinearLayout>

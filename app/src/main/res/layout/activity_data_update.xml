@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/id_user_id_update_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="userId" />
+
+    <EditText
+        android:id="@+id/id_user_name_update_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="userName" />
+
+    <EditText
+        android:id="@+id/id_password_update_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password" />
+
+    <Button
+        android:id="@+id/id_update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改" />
+
+    <Button
+        android:id="@+id/id_batch_update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="批量修改" />
+
+    <Button
+        android:id="@+id/id_query_update_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="查询" />
+
+</LinearLayout>
